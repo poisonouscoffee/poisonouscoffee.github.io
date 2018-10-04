@@ -84,6 +84,7 @@ body {
 ol,
 ul {
   list-style: none;
+  font-size: 120px
 }
 table {
   border-collapse: separate;
