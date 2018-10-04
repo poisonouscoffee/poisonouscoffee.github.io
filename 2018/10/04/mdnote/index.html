@@ -7,20 +7,20 @@
   
   <title>mdnote | PoisonousCoffee&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="标题设置（让字体变大，和word的标题意思一样）在Markdown当中设置标题，有两种方式：第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大） 块注释（blockquote）通过在文字开头添加“&amp;gt;”表示块注释。（当&amp;gt;和文字之间添加五个blank时，块注释的文字">
+  <meta name="description" content="标题设置（让字体变大，和word的标题意思一样）在Markdown当中设置标题，有两种方式：第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大） 块注释（blockquote）通过在文字开头添加“&amp;gt;”表示块注释。（当&amp;gt;和文字之间添加五个blank或两个tab时，">
 <meta name="keywords" content="markdown">
 <meta property="og:type" content="article">
 <meta property="og:title" content="mdnote">
 <meta property="og:url" content="https://poisonouscoffee.github.io/2018/10/04/mdnote/index.html">
 <meta property="og:site_name" content="PoisonousCoffee&#39;s Blog">
-<meta property="og:description" content="标题设置（让字体变大，和word的标题意思一样）在Markdown当中设置标题，有两种方式：第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大） 块注释（blockquote）通过在文字开头添加“&amp;gt;”表示块注释。（当&amp;gt;和文字之间添加五个blank时，块注释的文字">
+<meta property="og:description" content="标题设置（让字体变大，和word的标题意思一样）在Markdown当中设置标题，有两种方式：第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大） 块注释（blockquote）通过在文字开头添加“&amp;gt;”表示块注释。（当&amp;gt;和文字之间添加五个blank或两个tab时，">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://poisonouscoffee.github.io/path/to/img.jpg">
 <meta property="og:image" content="https://poisonouscoffee.github.io/path/to/img.jpg">
-<meta property="og:updated_time" content="2018-10-04T08:10:55.019Z">
+<meta property="og:updated_time" content="2018-10-04T08:27:51.923Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="mdnote">
-<meta name="twitter:description" content="标题设置（让字体变大，和word的标题意思一样）在Markdown当中设置标题，有两种方式：第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大） 块注释（blockquote）通过在文字开头添加“&amp;gt;”表示块注释。（当&amp;gt;和文字之间添加五个blank时，块注释的文字">
+<meta name="twitter:description" content="标题设置（让字体变大，和word的标题意思一样）在Markdown当中设置标题，有两种方式：第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大） 块注释（blockquote）通过在文字开头添加“&amp;gt;”表示块注释。（当&amp;gt;和文字之间添加五个blank或两个tab时，">
 <meta name="twitter:image" content="https://poisonouscoffee.github.io/path/to/img.jpg">
   
     <link rel="alternate" href="/atom.xml" title="PoisonousCoffee&#39;s Blog" type="application/atom+xml">
@@ -96,16 +96,21 @@
       
         <ol>
 <li>标题设置（让字体变大，和word的标题意思一样）<br>在Markdown当中设置标题，有两种方式：<br>第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。<br>第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）</li>
-<li>块注释（blockquote）<br>通过在文字开头添加“&gt;”表示块注释。（当&gt;和文字之间添加五个blank时，块注释的文字会有变化。）  <blockquote>
-<pre><code>块注释
+<li>块注释（blockquote）<br>通过在文字开头添加“&gt;”表示块注释。（当&gt;和文字之间添加五个blank或两个tab时，块注释的文字会变成类似代码块。）  <blockquote>
+<p>块注释1</p>
+<pre><code>块注释2
 </code></pre></blockquote>
 </li>
 <li>斜体<br>将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来</li>
 <li>粗体<br>将需要设置为斜体的文字两端使用2个“*”或者“_”夹起来</li>
 <li><p>无序列表<br>在文字开头添加(<em>, +, and -)实现无序列表。但是要注意在(</em>, +, and -)和文字之间需要添加空格。（建议：一个文档中只是用一种无序列表的表示方式）</p>
 </li>
-<li><p>有序列表<br>使用数字后面跟上句号。（还要有空格）</p>
-</li>
+<li><p>有序列表<br>使用数字后面跟上句号。（还要有空格)</p>
+<pre><code>1. 第一行用1. 
+0. 后面建议用0. 
+0. 因为后面只要是数字+. 就可以
+0. 而用0. 的话，方便后续的插入
+</code></pre></li>
 <li><p>链接（Links）<br>Markdown中有两种方式，实现链接，分别为内联方式和引用方式。</p>
 </li>
 </ol>
@@ -122,9 +127,6 @@
 <ol start="11">
 <li>下划线<br>在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的2级标题）</li>
 </ol>
-<blockquote>
-<p>块注释<br>块注释<br>       块注释</p>
-</blockquote>
 
       
     </div>
